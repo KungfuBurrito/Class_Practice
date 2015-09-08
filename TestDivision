@@ -1,0 +1,56 @@
+//******************************************************************************
+//	CODE FILENAME: steinAssn2.cpp
+//	DESCRIPTION:	
+//
+//	CLASS/ TERM:	CS361 Data Structures Spring 2015
+//	DESIGNER:		Sarah Stein
+//	FUNCTIONS:		
+//******************************************************************************
+
+#include <iostream> //For I/O
+#include <iomanip> //For output formatting
+#include <cstdlib> // For system command
+#include <fstream> //For file I/O
+
+using namespace std;
+
+//****************************************************************************************************************************************
+//	FUNCTION:		Main
+//	DESCRIPTION:	
+//	INPUT:
+//		Parameters:	
+//		File:		
+//	OUTPUT:
+//		Return Val:	
+//		Parameters:	
+//		File:		
+//	CALLS TO:		
+//*********************************************************************************************************************************************
+int main ()
+{
+	const int EVEN = 0;
+	const int ODD = 0;
+	
+	int num;
+	
+	cout << "enter a number: ";
+	cin >> num;
+	
+	if(num % 2== EVEN)
+	{
+		cout << num%.2;
+		cout << "number is even." << endl;
+		
+	}
+	
+	else
+	{
+		cout << num%2 << endl;
+		cout <<"number is odd" << endl;
+	}
+	
+
+	
+ 	cout << endl << endl;
+    return 0;
+}
